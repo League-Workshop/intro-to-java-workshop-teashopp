@@ -14,15 +14,18 @@ public class StephenHawking {
 	
 	// 3. call the speak method below and send it the sentence
 
-	
+	public static void main(String [] args) {
+		
+		for (int i = 0; i < 10; i++) {
+			
+			String words = JOptionPane.showInputDialog("Give me a sentence:");
+		
+			speak(words);
+		
+		}
+	}
 
-	
-	
-	
-	
-	
-	
-	
+
 	/* Don't change this. */
 	static void speak(String words) {
 		
